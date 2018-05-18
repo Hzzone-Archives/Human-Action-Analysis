@@ -1604,9 +1604,6 @@ layer {
       nms_threshold: 0.45
       top_k: 400
     }
-    save_output_param {
-      label_map_file: "data/coco/labelmap_coco.prototxt"
-    }
     code_type: CENTER_SIZE
     keep_top_k: 200
     confidence_threshold: 0.01

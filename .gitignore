@@ -1,3 +1,5 @@
 .idea
 *.caffemodel
 *.pyc
+caffe
+/test.py
